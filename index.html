@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laurie Tews</title>
+	<script src="https://use.fontawesome.com/6b4c7ded05.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="top-section">
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+<!--  -->
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#toAbout">About me</a></li>
+	        <li><a href="#toProject">Projects</a></li>
+	        <li><a href="#toTech">Technologies</a></li> 
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+<!-- Poloraid image -->
+	<div id="img-container">
+		<img class="portrait" src="laurie.jpg">
+		<p id="sig">Laurie Tews</p>
+	</div>
+
+	<div id="header-block">
+		<h2><a class="no-dec" href="#toAbout">About Me</a></h2><br>
+		<h2><a class="no-dec" href="#toProject">Projects</a></h2><br>
+		<h2><a class="no-dec" href="#toTech">Technologies</a></h2>
+	</div>
+<div style="display: block; clear: both;"></div>
+</div>
+<!-- End of top section -->
+<div id="toAbout">
+	<h2 class="sec-head">About Me</h2>
+	<div class="about-container" style="display:block; clear: both;">
+		<div class="float-left-lg">
+			<p><span class="red">Student at      </span><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+			<p class="bold">The University of Auckland</p><br>
+			<p><span class="red">Major</span><i class="fa fa-pencil" aria-hidden="true"></i></p>
+			<p class="bold">Computer Science & Finance</p><br>
+		</div>
+		<div class="float-right-lg">
+			<p><span class="red">Graduation Year</span><i class="fa fa-clock-o" aria-hidden="true"></i></p>
+			<p class="bold">2018</p><br>
+			<p><span class="red">Status</span><i class="fa fa-hourglass-half" aria-hidden="true"></i></p>
+			<p class="bold">Penultimate Year</p>
+		</div>
+	</div>
+</div>
+<div style="display: block; clear: both;"></div>
+<hr>
+<!-- Projects section -->
+<div id="toProject">
+	<h2 class="sec-head">Projects</h2>
+	<div style="display: block; clear: both"></div>
+	<a target="_blank" class="no-dec" href="rvb/rvb.html">
+	<div class="about-container">
+		<div class="container-caption-lg">
+			<img class="img-md" src="rvb.jpg">
+			<img class="hover-icon" src="arrow.png">
+				<div class="dialogue-box">
+					<div class="bold">Rent Vs Buy Calculator</div>
+					<br>
+					<p>Calculates npv of renting vs buying based on input values and displays an interactive graph with results.
+					</p>
+				</div>
+		</div>
+	</a>
+	<a target="_blank" class="no-dec" href="auckland/auckland.html">
+			<div class="container-caption-lg">
+				<img class="img-md" src="aucksite.jpg">
+				<img class="hover-icon" src="arrow.png">
+				<div class="dialogue-box">
+					<div class="bold">Auckland Showcase</div>
+					<br>
+					<p>Showcases Auckland city utilising mobile first responsive design. Connected to the google maps API.
+					</p>
+				</div>
+		</div>
+	</a>
+	</div>
+</div>
+<hr>
+<!-- Technologies section -->
+<div id="toTech">
+	<h2  class="sec-head long">Technologies</h2>
+	<div style="display: block; clear: both"></div>
+	<table id="table-lg" style="width: 80%">
+		<tr>
+			<td><img class="icon" src="html-sm.png"></td>
+			<td class="bold">HTML</td>
+			<td><img class="icon-sm" id="padding-none" src="js-sm.png"></td>
+			<td class="bold">Javascript</td>
+		</tr>
+		<tr>
+			<td><img  class="icon-sm" src="css-sm.png"></td>
+			<td class="bold">CSS</td>
+			<td><img class="icon-sm" src="jquery.png"></td>
+			<td class="bold">jQuery</td>
+		</tr>
+		<tr>
+			<td><img class="icon-sm" src="bootstrap.png"></td>
+			<td class="bold">Bootstrap</td>
+			<td><img class="icon-sm" src="python.png"></td>
+			<td class="bold">Python</td>
+		</tr>
+		<tr>
+			<td><img class="icon-sm" src="node.png"></td>
+			<td class="bold">Node.js</td>
+			<td><img class="icon-sm" src="mongo.png"></td>
+			<td class="bold">MongoDB</td>
+		</tr>
+	</table>
+		<!-- Small view table -->
+	<table id="table-sm" style="width: 80%">
+		<tr>
+			<td><img class="icon-mb" src="html-sm.png"></td>
+			<td class="bold text-mb">HTML</td>
+		</tr>
+		<tr>
+			<td><img class="icon-mb" id="padding-none" src="js-sm.png"></td>
+			<td class="bold text-mb">Javascript</td>
+		</tr>
+		<tr>
+			<td><img  class="icon-mb" src="css-sm.png"></td>
+			<td class="bold text-mb">CSS</td>
+		</tr>
+		<tr>
+			<td><img class="icon-mb" src="jquery.png"></td>
+			<td class="bold text-mb">jQuery</td>
+		</tr>
+		<tr>
+			<td><img class="icon-mb" src="bootstrap.png"></td>
+			<td class="bold text-mb">Bootstrap</td>
+		</tr>
+		<tr>
+			<td><img class="icon-mb" src="python.png"></td>
+			<td class="bold text-mb">Python</td>
+		</tr>
+		<tr>
+			<td><img class="icon-mb" src="node.png"></td>
+			<td class="bold text-mb">Node.js</td>
+		</tr>
+		<tr>
+			<td><img class="icon-mb" src="mongo.png"></td>
+			<td class="bold text-mb">MongoDB</td>
+		</tr>
+	</table>
+</div>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
