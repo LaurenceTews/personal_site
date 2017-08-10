@@ -15,3 +15,13 @@ $(".navbar-nav").find("a").click(function(e) {
         scrollTop: $(section).offset().top
     },  1500);
 });
+
+
+function parallex() {
+    ypos = window.pageYOffset;
+    var img = document.getElementById("img-container");
+    var maxTop = Math.min(80, ypos*0.15);
+    img.style.top =  maxTop + 'px';
+}
+
+window.addEventListener('scroll', parallex); 

@@ -1,3 +1,4 @@
+
 .top-section {
 	background: #e5e5e5;
 	padding-bottom: 100px;
@@ -63,6 +64,12 @@
 .font-sm {
 	font-size: 18px;
 }
+.text-left {
+	float: left;
+	font-weight: 500;
+	font-size: 14px;
+	margin: 10px 5px 5px 10%;
+}
 .dialogue-box {
 	padding-left: 20px;
     padding-right: 20px;
@@ -70,11 +77,11 @@
     font-size: 15px;
 }
 .icon {
-	width: 150px;
+	width: 120px;
 	padding: 20px 20px 30px 20px;
 }
 .icon-sm {
-	width: 120px;
+	width: 100px;
 	padding: 20px 20px 30px 20px;
 }
 .portrait {
@@ -95,6 +102,7 @@
 	max-width: 450px;
 	margin-left: 10%;
 	padding-bottom: 20px;
+	position: relative;
 	background: white;
     box-shadow: 3px 3px 3px #888888;
     margin-right: 0;
@@ -105,6 +113,7 @@
 table {
 	width: 80%;
 	margin-left: 10%;
+	margin-bottom: 30px;
 }
 td {  width: 5%;  }
 
@@ -132,6 +141,7 @@ h2.sec-head  {
 	margin-bottom: 20px;
 }
 
+
 /* media queries ---------------------*/
 
 @media (min-width: 400px) {
@@ -152,6 +162,12 @@ h2.sec-head  {
 	}
 	#table-sm {
 		display: none;
+	}
+}
+@media (min-width: 655px) {
+	.text-left {
+		font-size: 20px;
+		margin: 80px 30px 30px 50px;
 	}
 }
 @media (min-width: 820px) {
