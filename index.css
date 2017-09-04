@@ -193,6 +193,7 @@ h2.sec-head  {
 		width: 40%;
 		float: left;
 		margin-right: 9%;
+		min-height: 490px;
 	}
 }
 @media(min-width: 900px) {
